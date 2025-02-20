@@ -3,6 +3,10 @@ Ensure that you download the qemu-arm-rpi.sh file and run the following command 
 ```bash
 sudo chmod +x qemu-arm-rpi.sh
 ```
+Then
+```bash
+./qemu-arm-rpi.sh
+```
 This will allow you to execute the script!
 
 # QEMU Embedded Linux (Raspberry Pi OS) - ARM32 Emulation Setup
