@@ -7,7 +7,7 @@ Then
 ```bash
 ./qemu-arm-rpi.sh
 ```
-This will allow you to execute the script and boot up Raspberry Pi OS!
+This will allow you to execute the script and boot up Raspberry Pi OS in QEMU!
 
 
 
