@@ -7,7 +7,22 @@ Then
 ```bash
 ./qemu-arm-rpi.sh
 ```
-This will allow you to execute the script!
+This will allow you to execute the script and boot up Raspberry Pi OS!
+
+
+
+To re-run QEMU later, navigate to the working directory (QEMU/) and execute the following command:
+```bash
+qemu-system-arm \
+    -M versatilepb \
+    -cpu arm1176 \
+    -m 256 \
+    -kernel kernel-qemu-4.4.34-jessie \
+    -serial stdio \
+    -append "root=/dev/sda2 rootfstype=ext4 rw" \
+    -drive file=2024-10-22-raspios-bullseye-armhf.img,format=raw
+```
+
 
 # QEMU Embedded Linux (Raspberry Pi OS) - ARM32 Emulation Setup
 
